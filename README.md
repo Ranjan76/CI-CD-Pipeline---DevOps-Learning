@@ -4,13 +4,6 @@
 
 This project documents a real-world CI/CD pipeline I have built and managed over the past 4 years as a DevOps professional. These handwritten notes represent a complete end-to-end automation pipeline, showcasing how I have used industry-standard tools in production to ensure code quality, security, and continuous delivery.
 
-## 📷 Notes
-
-> These are raw notes taken from my own experience and used as a reference during team discussions and pipeline setups.
-
-![CI/CD Pipeline Notes - Page 1](notes/ci-cd-pipeline.jpeg)  
-![CI/CD Pipeline Notes - Page 2](notes/ci-cd-pipeline-2.jpeg)
-
 ---
 
 ## ⚙️ Tools & Stages
