@@ -1,9 +1,6 @@
 # CI-CD-Pipeline---DevOps-Learning
 CI/CD Pipeline - DevOps Learning
 
-
-# CI/CD Pipeline - DevOps Learning
-
 ## 🧠 Summary
 
 This project is a reflection of my hands-on experience in building and managing CI/CD pipelines over the past 4 years. The handwritten notes represent a real-world workflow I have followed in production environments while working with tools like Jenkins, Maven, SonarQube, Nexus, and Docker.
