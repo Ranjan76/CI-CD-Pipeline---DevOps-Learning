@@ -60,82 +60,52 @@ The entire pipeline ensures that:
 
 📚 *This repository reflects real scenarios I've worked on — not just learning, but delivering production-ready DevOps solutions.*
 
-🚀 DevOps Project Documentation
-✅ Phase-Wise Breakdown (with MobaXterm)
+🚀 DevOps Project Documentation✅ Phase-Wise Breakdown (with MobaXterm)
 🔹 Phase 1: Initial Setup – VPC, EC2, and Network
-✅ Steps:
-AWS Account
-
+✅ Steps:AWS Account
 Select AWS region close to your location.
-
 Make sure networking (VPC & internet access) is set up properly.
-
 VPC Setup
-
 Use default VPC (for simplicity) or create a new one.
-
 Launch EC2 Instance
-
 AMI: Ubuntu 22.04
-
 Instance Type: t2.medium
-
 Key Pair: Create or use existing .pem file
-
 Security Group: Allow essential ports:
-
 22 → SSH
-
 80 → HTTP
-
 443 → HTTPS
-
 25, 465 → SMTP/Notifications
-
 3000–10000, 50000–32767 → Application, Jenkins, Docker
-
 6443 → Kubernetes API
-
 Storage: Set e.g., 30 GB
-
 Launch Instance
 
 🔹 Phase 2: Connect Multiple EC2 VMs using MobaXterm
+
 🎯 Objective: Create and SSH into multiple VMs using MobaXterm GUI
 Instances to Launch:
 
 Master Node
-
 Slave 1
-
 Slave 2
 
 MobaXterm Setup
-
 Open MobaXterm.
-
 Go to "Session" → "SSH"
-
 Remote Host: Public IP of EC2 instance
-
 Username: ubuntu
-
 Under "Advanced SSH settings":
-
 Check “Use private key” → Browse and select your .pem file (converted to .ppk if needed using PuTTYgen)
-
 Save session for each EC2 (master, slave1, slave2) for easy access.
-
 Initial Configuration in Each VM
-
 Update and install required packages
-
 Set up hostname (optional):
-
 bash
 Copy
 Edit
 sudo hostnamectl set-hostname master
+
 🔹 Phase 3: Master-Slave Connectivity
 From Master EC2 (via MobaXterm terminal)
 
