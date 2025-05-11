@@ -57,10 +57,12 @@ The entire pipeline ensures that:
 - Feedback is quick through notifications
 - System and application health is always visible
 
-🚀 DevOps Project Documentation✅ Phase-Wise Breakdown (with MobaXterm)
 
+📚 *This repository reflects real scenarios I've worked on — not just learning, but delivering production-ready DevOps solutions.*
+
+🚀 DevOps Project Documentation
+✅ Phase-Wise Breakdown (with MobaXterm)
 🔹 Phase 1: Initial Setup – VPC, EC2, and Network
-
 ✅ Steps:
 AWS Account
 
@@ -186,9 +188,3 @@ Security Group: Firewall for ports
 SSH: Secure connection from master to slaves
 
 Hostname & Monitoring: Optional setup for better visibility
-
----
-
-📚 *This repository reflects real scenarios I've worked on — not just learning, but delivering production-ready DevOps solutions.*
-
-
