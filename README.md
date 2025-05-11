@@ -57,9 +57,6 @@ The entire pipeline ensures that:
 - Feedback is quick through notifications
 - System and application health is always visible
 
-
-
-
 🚀 DevOps Project Documentation
 ✅ Phase-Wise Breakdown (with MobaXterm)
 🔹 Phase 1: Initial Setup – VPC, EC2, and Network
