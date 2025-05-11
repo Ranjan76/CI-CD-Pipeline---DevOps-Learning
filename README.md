@@ -188,3 +188,4 @@ Security Group: Firewall for ports
 SSH: Secure connection from master to slaves
 
 Hostname & Monitoring: Optional setup for better visibility
+
